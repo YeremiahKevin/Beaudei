@@ -1,0 +1,26 @@
+.card {
+    background-color: #fdfdfd;
+    /*padding: 8px 16px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(105, 105, 105, 0.4);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-x-large {
+    font-size: x-large;
+}
+
+.font-xx-large {
+    font-size: xx-large;
+}

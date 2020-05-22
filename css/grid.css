@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+.container {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+@media (max-device-width: 800px) {
+    .container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
