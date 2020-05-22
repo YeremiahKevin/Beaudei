@@ -1,0 +1,25 @@
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+@media (max-device-width: 800px) {
+    .w-25 {
+        width: 50%;
+    }
+
+    .w-50 {
+        width: 75%;
+    }
+}
+
+.bg-pink {
+    background-color: #ffcad1;
+}
+
+.form-control {
+    width: 95%;
+}
