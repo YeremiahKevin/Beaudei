@@ -24,3 +24,27 @@
 .font-xx-large {
     font-size: xx-large;
 }
+
+nav {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    background-color: #e1e1e1;
+}
+
+nav a {
+    color: #808080;
+    text-decoration: none;
+    font-size: xx-large;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+nav a:hover {
+    color: #3830d7;
+}
+
+.active {
+    color: #000000;
+}
