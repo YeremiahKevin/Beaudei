@@ -17,6 +17,14 @@
     font-weight: bold;
 }
 
+.font-large {
+    font-size: large;
+}
+
+.font-larger {
+    font-size: larger;
+}
+
 .font-x-large {
     font-size: x-large;
 }
@@ -47,4 +55,26 @@ nav a:hover {
 
 .active {
     color: #000000;
+}
+
+.btn {
+    padding: 10px 12px;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-blue {
+    color: white;
+    background-color: #3873ff;
+    border: 1px solid white;
+}
+
+.btn-blue:hover {
+    background-color: #2252cd;
+}
+
+.btn-blue:active {
+    background-color: #214e9b;
+    border: 1px solid white;
 }
