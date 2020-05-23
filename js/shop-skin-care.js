@@ -57,6 +57,14 @@ const products = [
         product_image: '../assets/image/L\'OREAL%20Total%20Repair%205%20Damage%20Erasing%20Balm.jpg',
         product_image_url: 'https://www.lorealparisusa.com/~/media/images/lop/home/products/hair/hair-care/treatments/advanced-haircare-total-repair-5-damage-erasing-balm-85oz/total-repair-5-damage-erasing-balm-85oz/hca9_5_pack-shot.jpg',
         product_price: 350900
+    },
+    {
+        brand_name: 'MAC Cosmetics',
+        product_type: 'serum',
+        product_name: 'Prep + Prime Moisture Infusion Serum 50ml',
+        product_image: '../assets/image/MAC%20Cosmetics%20Prep%20+%20Prime%20Moisture%20Infusion%20Serum%2050ml.jpg',
+        product_image_url: 'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/8/5/35568474/35568474_f5530ba2-dbf1-4837-8b23-d3e51726e907_1000_1000.png',
+        product_price: 678900
     }
 ];
 
@@ -99,6 +107,7 @@ function showProduct(products) {
         }
     }
     document.getElementById('product-list').innerHTML = html;
+    document.getElementById('product-list').scrollIntoView({behavior: "smooth"});
 }
 
 function onClickCleanser() {
@@ -114,4 +123,9 @@ function onClickExfoliator() {
 function onClickTreatment() {
     const treatmentProducts = products.filter(i => i.product_type === 'treatment');
     showProduct(treatmentProducts);
+}
+
+function onClickSerum() {
+    const serumProducts = products.filter(i => i.product_type === 'serum');
+    showProduct(serumProducts);
 }
