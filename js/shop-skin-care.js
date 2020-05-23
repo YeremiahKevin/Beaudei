@@ -73,6 +73,14 @@ const products = [
         product_image: '../assets/image/Wardah%20Pure%20Olive%20Oil.jpg',
         product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/product_1449134368_Wardah_Pur_800x800.jpg',
         product_price: 39900
+    },
+    {
+        brand_name: 'Wardah',
+        product_type: 'sunscreen',
+        product_name: 'Sunscreen Gel',
+        product_image: '../assets/image/Wardah%20Sunscreen%20Gel.jpg',
+        product_image_url: 'https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/beauty/Wardah_Sunscreen_Gel/Wardah_Sunscreen_Gel_L_1.jpg',
+        product_price: 20900
     }
 ];
 
@@ -141,4 +149,9 @@ function onClickSerum() {
 function onClickFaceOil() {
     const faceOilProducts = products.filter(i => i.product_type === 'face oil');
     showProduct(faceOilProducts);
+}
+
+function onClickSunscreen() {
+    const sunscreenProducts = products.filter(i => i.product_type === 'sunscreen');
+    showProduct(sunscreenProducts);
 }
