@@ -65,6 +65,14 @@ const products = [
         product_image: '../assets/image/MAC%20Cosmetics%20Prep%20+%20Prime%20Moisture%20Infusion%20Serum%2050ml.jpg',
         product_image_url: 'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/8/5/35568474/35568474_f5530ba2-dbf1-4837-8b23-d3e51726e907_1000_1000.png',
         product_price: 678900
+    },
+    {
+        brand_name: 'Wardah',
+        product_type: 'face oil',
+        product_name: 'Pure Olive Oil',
+        product_image: '../assets/image/Wardah%20Pure%20Olive%20Oil.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/product_1449134368_Wardah_Pur_800x800.jpg',
+        product_price: 39900
     }
 ];
 
@@ -128,4 +136,9 @@ function onClickTreatment() {
 function onClickSerum() {
     const serumProducts = products.filter(i => i.product_type === 'serum');
     showProduct(serumProducts);
+}
+
+function onClickFaceOil() {
+    const faceOilProducts = products.filter(i => i.product_type === 'face oil');
+    showProduct(faceOilProducts);
 }
