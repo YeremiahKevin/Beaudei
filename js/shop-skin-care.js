@@ -113,6 +113,14 @@ const products = [
         product_image: '../assets/image/Wardah%20Lightening%20Face%20Mask.jpg',
         product_image_url: 'https://static.femaledaily.com/dyn/210/images/prod-pics/product_1441767970_LIGHTENING_800x800.jpg',
         product_price: 14900
+    },
+    {
+        brand_name: 'Viva',
+        product_type: 'eye cream',
+        product_name: 'Revitalizing Eye Cream',
+        product_image: '../assets/image/Viva%20Revitalizing%20Eye%20Cream.png',
+        product_image_url: 'https://static.femaledaily.com/dyn/210/images/prod-pics/1445610385_lg.png',
+        product_price: 33900
     }
 ];
 
@@ -209,4 +217,9 @@ function onClickToner() {
 function onClickFaceMask() {
     const faceMaskProducts = products.filter(i => i.product_type === 'face mask');
     showProduct(faceMaskProducts);
+}
+
+function onClickEyeCream() {
+    const eyeCreamProducts = products.filter(i => i.product_type === 'eye cream');
+    showProduct(eyeCreamProducts);
 }
