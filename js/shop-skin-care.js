@@ -89,6 +89,14 @@ const products = [
         product_image: '../assets/image/NYX%20Tinted%20Moisturizer.jpg',
         product_image_url: 'https://ecs7.tokopedia.net/img/cache/700/product-1/2016/6/24/4655985/4655985_ec01e1a2-0254-48af-aad2-5ee9c9dcd14f.jpg',
         product_price: 169900
+    },
+    {
+        brand_name: 'Wardah',
+        product_type: 'chemical peel',
+        product_name: 'Essential Peeling Cream',
+        product_image: '../assets/image/Wardah%20Essential%20Peeling%20Cream.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1458184508_Wardah_pee_800x800.jpg',
+        product_price: 17900
     }
 ];
 
@@ -170,4 +178,9 @@ function onClickSunscreen() {
 function onClickMoisturizer() {
     const moisturizerProducts = products.filter(i => i.product_type === 'moisturizer');
     showProduct(moisturizerProducts);
+}
+
+function onClickChemicalPeel() {
+    const chemicalPeelProducts = products.filter(i => i.product_type === 'chemical peel');
+    showProduct(chemicalPeelProducts);
 }
