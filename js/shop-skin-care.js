@@ -41,6 +41,22 @@ const products = [
         product_image: '../assets/image/Wardah%20White%20Secret%20Exfoliating%20Scrub%2050%20ml.jpg',
         product_image_url: 'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/9/14/32384324/32384324_4a95dde4-08ef-4298-8c21-31daf8c5522d_1400_1400.jpg',
         product_price: 35900
+    },
+    {
+        brand_name: 'NYX',
+        product_type: 'treatment',
+        product_name: 'Bare With Me Tinted Skin Veil',
+        product_image: '../assets/image/NYX%20Bare%20With%20Me%20Tinted%20Skin%20Veil.jpg',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=360,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/8/1/8/9/28189-large_default.jpg',
+        product_price: 240900
+    },
+    {
+        brand_name: 'L\'OREAL',
+        product_type: 'treatment',
+        product_name: 'Total Repair 5 Damage Erasing Balm',
+        product_image: '../assets/image/L\'OREAL%20Total%20Repair%205%20Damage%20Erasing%20Balm.jpg',
+        product_image_url: 'https://www.lorealparisusa.com/~/media/images/lop/home/products/hair/hair-care/treatments/advanced-haircare-total-repair-5-damage-erasing-balm-85oz/total-repair-5-damage-erasing-balm-85oz/hca9_5_pack-shot.jpg',
+        product_price: 350900
     }
 ];
 
@@ -93,4 +109,9 @@ function onClickCleanser() {
 function onClickExfoliator() {
     const exfoliatorProducts = products.filter(i => i.product_type === 'exfoliator');
     showProduct(exfoliatorProducts);
+}
+
+function onClickTreatment() {
+    const treatmentProducts = products.filter(i => i.product_type === 'treatment');
+    showProduct(treatmentProducts);
 }
