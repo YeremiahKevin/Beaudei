@@ -1,33 +1,53 @@
 const products = [
     {
+        brand_name: 'NYX',
         product_type: 'cleanser',
         product_name: 'Stripped Off Whipped Charcoal Cleanser',
         product_image: '../assets/image/NYX%20Stripped%20Off%20Whipped%20Charcoal%20Cleanser.jpg',
         product_price: 59900
     },
     {
+        brand_name: 'Revlon',
         product_type: 'cleanser',
         product_name: 'Magnet Anti-Pollution Micellar Cleanser',
         product_image: '../assets/image/Revlon%20Magnet%20Anti-Pollution%20Micellar%20Cleanser.jpg',
         product_price: 60900
     },
     {
+        brand_name: 'Sariayu',
         product_type: 'cleanser',
         product_name: 'Econature Face Cleanser',
         product_image: '../assets/image/Sariayu%20Econature%20Face%20Cleanser.jpg',
         product_price: 45900
     },
     {
+        brand_name: 'Viva',
         product_type: 'cleanser',
         product_name: 'Milk Cleanser',
         product_image: '../assets/image/Viva%20Milk%20Cleanser.jpg',
         product_price: 44900
     },
+    {
+        brand_name: 'MAKE OVER',
+        product_type: 'exfoliator',
+        product_name: 'Velvet Mattifying Primer',
+        product_image: '../assets/image/MAKE%20OVER%20Velvet%20Mattifying%20Primer.jpg',
+        product_price: 75000
+    },
+    {
+        brand_name: 'Wardah',
+        product_type: 'exfoliator',
+        product_name: 'White Secret Exfoliating Scrub 50 ml',
+        product_image: '../assets/image/Wardah%20White%20Secret%20Exfoliating%20Scrub%2050%20ml.jpg',
+        product_image_url: 'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/9/14/32384324/32384324_4a95dde4-08ef-4298-8c21-31daf8c5522d_1400_1400.jpg',
+        product_price: 35900
+    }
 ];
 
 function showProduct(products) {
     let html = '';
     for (let i = 0; i < products.length; i++) {
+        products[i].product_price_display = products[i].product_price.toLocaleString('id-ID');
         if (i % 3 === 0) {
             html += '<div class="row">'
         }
@@ -41,7 +61,7 @@ function showProduct(products) {
             `                        <img class="image-mobile" src="${products[i].product_image}" width="150" height="150">\n` +
             '                    </div>\n' +
             '                    <div class="mt-2 font-x-large">\n' +
-            `                        ${products[i].product_price}\n` +
+            `                        Rp ${products[i].product_price_display}\n` +
             '                    </div>\n' +
             '                </div>\n' +
             '            </div>';
@@ -66,6 +86,11 @@ function showProduct(products) {
 }
 
 function onClickCleanser() {
-    const cleanserProducts = products.filter(i => i.product_type === 'cleanser');
+    let cleanserProducts = products.filter(i => i.product_type === 'cleanser');
     showProduct(cleanserProducts);
+}
+
+function onClickExfoliator() {
+    const exfoliatorProducts = products.filter(i => i.product_type === 'exfoliator');
+    showProduct(exfoliatorProducts);
 }
