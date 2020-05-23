@@ -97,6 +97,14 @@ const products = [
         product_image: '../assets/image/Wardah%20Essential%20Peeling%20Cream.jpg',
         product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1458184508_Wardah_pee_800x800.jpg',
         product_price: 17900
+    },
+    {
+        brand_name: 'MAKE OVER',
+        product_type: 'toner',
+        product_name: 'Toner',
+        product_image: '../assets/image/MAKE%20OVER%20Toner.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/a9bbc1a64829994e663f21edb98b8d1a.jpg',
+        product_price: 47900
     }
 ];
 
@@ -183,4 +191,9 @@ function onClickMoisturizer() {
 function onClickChemicalPeel() {
     const chemicalPeelProducts = products.filter(i => i.product_type === 'chemical peel');
     showProduct(chemicalPeelProducts);
+}
+
+function onClickToner() {
+    const tonerProducts = products.filter(i => i.product_type === 'toner');
+    showProduct(tonerProducts);
 }
