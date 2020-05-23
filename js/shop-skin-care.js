@@ -62,7 +62,7 @@ const products = [
         brand_name: 'MAC Cosmetics',
         product_type: 'serum',
         product_name: 'Prep + Prime Moisture Infusion Serum 50ml',
-        product_image: '../assets/image/MAC%20Cosmetics%20Prep%20+%20Prime%20Moisture%20Infusion%20Serum%2050ml.jpg',
+        product_image: '../assets/image/MAC%20Cosmetics%20Prep%20+%20Prime%20Moisture%20Infusion%20Serum%2050ml.png',
         product_image_url: 'https://ecs7.tokopedia.net/img/cache/700/product-1/2018/8/5/35568474/35568474_f5530ba2-dbf1-4837-8b23-d3e51726e907_1000_1000.png',
         product_price: 678900
     },
@@ -81,6 +81,14 @@ const products = [
         product_image: '../assets/image/Wardah%20Sunscreen%20Gel.jpg',
         product_image_url: 'https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/beauty/Wardah_Sunscreen_Gel/Wardah_Sunscreen_Gel_L_1.jpg',
         product_price: 20900
+    },
+    {
+        brand_name: 'NYX',
+        product_type: 'moisturizer',
+        product_name: 'Tinted Moisturizer',
+        product_image: '../assets/image/NYX%20Tinted%20Moisturizer.jpg',
+        product_image_url: 'https://ecs7.tokopedia.net/img/cache/700/product-1/2016/6/24/4655985/4655985_ec01e1a2-0254-48af-aad2-5ee9c9dcd14f.jpg',
+        product_price: 169900
     }
 ];
 
@@ -95,6 +103,9 @@ function showProduct(products) {
             '<div class="column">\n' +
             '                <div class="card text-center mx-2 my-2">\n' +
             '                    <div class="font-large">\n' +
+            `                        ${products[i].brand_name}` +
+            '                    </div>\n' +
+            '                    <div class="font-large mt-1">\n' +
             `                        ${products[i].product_name}` +
             '                    </div>\n' +
             '                    <div class="mt-3">\n' +
@@ -154,4 +165,9 @@ function onClickFaceOil() {
 function onClickSunscreen() {
     const sunscreenProducts = products.filter(i => i.product_type === 'sunscreen');
     showProduct(sunscreenProducts);
+}
+
+function onClickMoisturizer() {
+    const moisturizerProducts = products.filter(i => i.product_type === 'moisturizer');
+    showProduct(moisturizerProducts);
 }
