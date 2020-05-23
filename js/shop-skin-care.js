@@ -105,6 +105,14 @@ const products = [
         product_image: '../assets/image/MAKE%20OVER%20Toner.jpg',
         product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/a9bbc1a64829994e663f21edb98b8d1a.jpg',
         product_price: 47900
+    },
+    {
+        brand_name: 'Wardah',
+        product_type: 'face mask',
+        product_name: 'Lightening Face Mask',
+        product_image: '../assets/image/Wardah%20Lightening%20Face%20Mask.jpg',
+        product_image_url: 'https://static.femaledaily.com/dyn/210/images/prod-pics/product_1441767970_LIGHTENING_800x800.jpg',
+        product_price: 14900
     }
 ];
 
@@ -196,4 +204,9 @@ function onClickChemicalPeel() {
 function onClickToner() {
     const tonerProducts = products.filter(i => i.product_type === 'toner');
     showProduct(tonerProducts);
+}
+
+function onClickFaceMask() {
+    const faceMaskProducts = products.filter(i => i.product_type === 'face mask');
+    showProduct(faceMaskProducts);
 }
