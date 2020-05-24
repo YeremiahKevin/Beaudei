@@ -17,6 +17,10 @@
     font-weight: bold;
 }
 
+.font-small {
+    font-size: small;
+}
+
 .font-medium {
     font-size: medium;
 }
@@ -136,7 +140,19 @@ nav a:hover {
     display: block;
 }
 
+.free-shipment-desktop {
+    position: absolute; top: 29px; left: 690px
+}
+
+.text-white {
+    color: white;
+}
+
 @media (max-device-width: 800px) {
+    .font-small {
+        font-size: x-small;
+    }
+
     .font-medium {
         font-size: smaller;
     }
