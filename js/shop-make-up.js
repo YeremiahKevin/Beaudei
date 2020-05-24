@@ -88,6 +88,15 @@ const products = [
         product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/1443494645_lg.jpg',
         product_price: 33900
     },
+    {
+        body_part: ['lip'],
+        make_up_type: 'lip-balms, liners, primers and sticks',
+        brand_name: 'Revlon',
+        product_name: 'ColorBurst Matte Balm',
+        product_image: '../assets/image/Revlon%20ColorBurst%20Matte%20Balm.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1432363344_Revlon_col_800x800.jpg',
+        product_price: 100000
+    },
 ];
 
 function onChangeBodyPart() {
