@@ -97,6 +97,15 @@ const products = [
         product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1432363344_Revlon_col_800x800.jpg',
         product_price: 100000
     },
+    {
+        body_part: ['face'],
+        make_up_type: 'contour powder or creams',
+        brand_name: 'MAKE OVER',
+        product_name: 'Face Contour Kit',
+        product_image: '../assets/image/MAKE%20OVER%20Face%20Contour%20Kit.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1545192782_Make_Over__800x800.jpg',
+        product_price: 104900
+    },
 ];
 
 function onChangeBodyPart() {
