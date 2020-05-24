@@ -70,6 +70,15 @@ const products = [
         product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/product_1449042182_winner_mak_800x800.jpg',
         product_price: 23900
     },
+    {
+        body_part: ['eye'],
+        make_up_type: 'mascara',
+        brand_name: 'Sariayu',
+        product_name: 'Duo Eye MakeUp Mascara + Eyeliner',
+        product_image: '../assets/image/Sariayu%20Duo%20Eye%20MakeUp%20Mascara%20+%20Eyeliner.jpg',
+        product_image_url: 'https://cf.shopee.co.id/file/f601581a9bc70dd75b5aa0a3c05f906d',
+        product_price: 68900
+    },
 ];
 
 function onChangeBodyPart() {
