@@ -115,6 +115,15 @@ const products = [
         product_image_url: 'https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/2/7/2/0/12720-large_default.jpg',
         product_price: 169000
     },
+    {
+        body_part: ['face'],
+        make_up_type: 'foundation',
+        brand_name: 'Wardah',
+        product_name: 'Exclusive Liquid Foundation',
+        product_image: '../assets/image/Wardah%20Exclusive%20Liquid%20Foundation.jpg',
+        product_image_url: 'https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/beauty/Wardah_Exclusive_Liquid_Foundation_ID/Wardah_Exclusive_Liquid_Foundation_ID_L_1.jpg',
+        product_price: 56900
+    },
 ];
 
 function onChangeBodyPart() {
