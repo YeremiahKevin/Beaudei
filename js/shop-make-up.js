@@ -161,6 +161,7 @@ function onChangeSkinType() {
     });
 
     showProduct(filterProducts);
+    document.getElementById('separator').innerHTML = '<hr>';
 }
 
 function showProduct(products) {
