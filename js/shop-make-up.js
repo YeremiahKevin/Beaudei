@@ -79,6 +79,15 @@ const products = [
         product_image_url: 'https://cf.shopee.co.id/file/f601581a9bc70dd75b5aa0a3c05f906d',
         product_price: 68900
     },
+    {
+        body_part: ['lip'],
+        make_up_type: 'lipgloss',
+        brand_name: 'Wardah',
+        product_name: 'Wondershine Lip Gloss',
+        product_image: '../assets/image/Wardah%20Wondershine%20Lip%20Gloss.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/1443494645_lg.jpg',
+        product_price: 33900
+    },
 ];
 
 function onChangeBodyPart() {
