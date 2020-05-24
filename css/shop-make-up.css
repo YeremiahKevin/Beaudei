@@ -5,3 +5,19 @@ select {
     border: none;
     border-bottom: 1px solid black;
 }
+
+select:hover {
+    cursor: pointer;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #d7d7d7;
+}
+
+@media (max-device-width: 800px) {
+    .image-mobile {
+        width: 100px;
+        height: 100px;
+    }
+}

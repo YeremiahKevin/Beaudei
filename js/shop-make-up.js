@@ -51,6 +51,24 @@ const products = [
         product_image_url: 'https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dwab0ca9c1/ProductImages/2016/Face/HD_Photogenic_Concealer_Wand/800897123284_concealerwand_fair_main.jpg?sw=420&sh=420&sm=fit&q=80',
         product_price: 99900
     },
+    {
+        body_part: ['face', 'eye'],
+        make_up_type: 'concealer',
+        brand_name: 'MAKE OVER',
+        product_name: 'Powerstay Total Cover Liquid Concealer',
+        product_image: '../assets/image/MAKE%20OVER%20Powerstay%20Total%20Cover%20Liquid%20Concealer.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/product_1561171342058jpg',
+        product_price: 99900
+    },
+    {
+        body_part: ['face', 'eye'],
+        make_up_type: 'concealer',
+        brand_name: 'Maybelline',
+        product_name: 'Instant Age Rewind Dark Spot Concealer + Treatment',
+        product_image: '../assets/image/Maybelline%20Instant%20Age%20Rewind%20Dark%20Spot%20Concealer%20+%20Treatment.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1432301179_Maybelline_800x800.jpg',
+        product_price: 149900
+    },
 ];
 
 function onChangeBodyPart() {
@@ -58,7 +76,7 @@ function onChangeBodyPart() {
 
     if (selectedBodyPart === '' || selectedBodyPart === null) {
         document.getElementById('make-up-types').innerHTML = '';
-        console.log(document.getElementById('make-up-types'));
+        return;
     }
 
     const filterMakeUpTypes = makeUpTypes.filter(i => {
