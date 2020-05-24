@@ -135,3 +135,33 @@ nav a:hover {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+@media (max-device-width: 800px) {
+    .font-medium {
+        font-size: smaller;
+    }
+
+    .font-large {
+        font-size: small !important;
+    }
+
+    .font-larger {
+        font-size: medium !important;
+    }
+
+    .font-x-large {
+        font-size: large !important;
+    }
+
+    .font-xx-large {
+        font-size: larger;
+    }
+
+    select {
+        font-size: small !important;
+    }
+
+    option {
+        font-size: smaller !important;
+    }
+}
