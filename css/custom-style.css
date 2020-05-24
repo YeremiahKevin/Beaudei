@@ -141,7 +141,9 @@ nav a:hover {
 }
 
 .free-shipment-desktop {
-    position: absolute; top: 29px; left: 690px
+    position: absolute;
+    top: 29px;
+    left: 690px
 }
 
 .text-white {
