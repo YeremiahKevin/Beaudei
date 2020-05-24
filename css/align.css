@@ -1,9 +1,21 @@
+.text-right {
+    text-align: right;
+}
+
 .text-center {
     text-align: center;
 }
 
 .justify-content-center {
     justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.float-right {
+    float: right !important;
 }
 
 .mt-0 {

@@ -22,15 +22,15 @@
 }
 
 .font-large {
-    font-size: large;
+    font-size: large !important;
 }
 
 .font-larger {
-    font-size: larger;
+    font-size: larger !important;
 }
 
 .font-x-large {
-    font-size: x-large;
+    font-size: x-large !important;
 }
 
 .font-xx-large {
@@ -81,4 +81,57 @@ nav a:hover {
 .btn-blue:active {
     background-color: #214e9b;
     border: 1px solid white;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #ff85d7;
+}
+
+.navbar a {
+    float: left;
+    color: white;
+    padding: 16px 20px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+}
+
+.dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 20px;
+    background-color: inherit;
+    font: inherit;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #ff6bb5;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 16px 18px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #cdcdcd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
