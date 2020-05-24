@@ -17,6 +17,10 @@
     font-weight: bold;
 }
 
+.font-small {
+    font-size: small;
+}
+
 .font-medium {
     font-size: medium;
 }
@@ -136,7 +140,25 @@ nav a:hover {
     display: block;
 }
 
+.free-shipment-desktop {
+    position: absolute;
+    top: 29px;
+    left: 690px
+}
+
+.text-white {
+    color: white;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.51);
+}
+
 @media (max-device-width: 800px) {
+    .font-small {
+        font-size: x-small;
+    }
+
     .font-medium {
         font-size: smaller;
     }
@@ -163,5 +185,22 @@ nav a:hover {
 
     option {
         font-size: smaller !important;
+    }
+
+    .free-shipment-desktop {
+        display: none;
+    }
+
+    .free-shipment-mobile {
+        display: block;
+        position: relative;
+        top: inherit;
+        left: inherit;
+        margin-bottom: 2vh;
+        text-align: center;
+    }
+
+    .free-shipment-mobile .text-white {
+        color: #696969;
     }
 }
