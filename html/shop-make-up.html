@@ -2,12 +2,50 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Shop Make Up</title>
+    <link rel="stylesheet" type="text/css" href="../css/grid.css">
+    <link rel="stylesheet" type="text/css" href="../css/custom-style.css">
+    <link rel="stylesheet" type="text/css" href="../css/align.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
+    <link rel="stylesheet" type="text/css" href="../css/shop-make-up.css">
+    <script src="../js/shop-make-up.js"></script>
 </head>
 <body>
+<div class="container">
+    <!--    Navigation Bar-->
+    <nav class="mb-3">
+        <a href="home.html">Home</a>
+        <a href="promotion.html">Promotion</a>
+        <a href="shop-make-up.html">Make Up</a>
+        <a class="active" href="shop-skin-care.html">Skin Care</a>
+        <a href="register.html">Register</a>
+    </nav>
 
+    <!--    Shop Make Up Page-->
+    <div class="row">
+        <div class="column mt-2">
+            <div class="font-x-large">Body Part</div>
+            <select id="select-body-part" class="mt-1" onchange="onChangeBodyPart()" >
+                <option value="">Select Body Part</option>
+                <option value="eye">Eye</option>
+                <option value="lip">Lip</option>
+                <option value="face">Face</option>
+            </select>
+        </div>
+
+        <div class="column mt-2" id="make-up-types">
+        </div>
+    </div>
+
+    <div class="mt-5">
+        <hr>
+    </div>
+
+    <div class="mt-3" id="product-list">
+    </div>
+
+</div>
 </body>
 </html>
