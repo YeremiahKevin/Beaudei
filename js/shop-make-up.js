@@ -106,6 +106,15 @@ const products = [
         product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1545192782_Make_Over__800x800.jpg',
         product_price: 104900
     },
+    {
+        body_part: ['face'],
+        make_up_type: 'face powder',
+        brand_name: 'NYX',
+        product_name: 'Stay Matte Not Flat Powder Foundation',
+        product_image: '../assets/image/NYX%20Stay%20Matte%20Not%20Flat%20Powder%20Foundation.jpg',
+        product_image_url: 'https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/2/7/2/0/12720-large_default.jpg',
+        product_price: 169000
+    },
 ];
 
 function onChangeBodyPart() {
