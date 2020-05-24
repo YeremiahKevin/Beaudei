@@ -77,9 +77,3 @@
         transform: translateY(0);
     }
 }
-
-@media (max-device-width: 800px) {
-    .pop-up {
-        display: none;
-    }
-}
