@@ -9,10 +9,6 @@ const makeUpTypes = [
     },
     {
         body_part: ['eye'],
-        make_up_type: 'eyelash glue'
-    },
-    {
-        body_part: ['eye'],
         make_up_type: 'eyebrow pencils'
     },
     {
@@ -22,10 +18,6 @@ const makeUpTypes = [
     {
         body_part: ['face'],
         make_up_type: 'foundation'
-    },
-    {
-        body_part: ['face'],
-        make_up_type: 'highlight'
     },
     {
         body_part: ['lip'],
@@ -68,6 +60,15 @@ const products = [
         product_image: '../assets/image/Maybelline%20Instant%20Age%20Rewind%20Dark%20Spot%20Concealer%20+%20Treatment.jpg',
         product_image_url: 'https://image.femaledaily.com/dyn/500/images/prod-pics/product_1432301179_Maybelline_800x800.jpg',
         product_price: 149900
+    },
+    {
+        body_part: ['eye'],
+        make_up_type: 'eyebrow pencils',
+        brand_name: 'Viva',
+        product_name: 'Viva Eye Brow Pencil',
+        product_image: '../assets/image/Viva%20Eye%20Brow%20Pencil.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/product_1449042182_winner_mak_800x800.jpg',
+        product_price: 23900
     },
 ];
 
@@ -117,11 +118,11 @@ function showProduct(products) {
         }
         html +=
             '<div class="column">\n' +
-            '                <div class="card text-center mx-2 my-2">\n' +
+            '                <div class="card text-center mx-2 my-2 cursor-pointer">\n' +
             '                    <div class="font-large">\n' +
             `                        ${products[i].brand_name}` +
             '                    </div>\n' +
-            '                    <div class="font-large mt-1">\n' +
+            '                    <div class="font-medium mt-1">\n' +
             `                        ${products[i].product_name}` +
             '                    </div>\n' +
             '                    <div class="mt-3">\n' +
