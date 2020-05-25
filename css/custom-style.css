@@ -204,6 +204,18 @@ nav a:hover {
     .free-shipment-mobile .text-white {
         color: #696969;
     }
+
+    .navbar a {
+        padding: 8px 10px;
+    }
+
+    .dropdown .dropbtn {
+        padding: 8px 10px;
+    }
+
+    .dropdown-content a {
+        padding: 8px 10px;
+    }
 }
 
 html * {
