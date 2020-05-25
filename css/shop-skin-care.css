@@ -1,0 +1,11 @@
+.card {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+@media (max-device-width: 800px) {
+    .image-mobile {
+        width: 75px;
+        height: 75px;
+    }
+}

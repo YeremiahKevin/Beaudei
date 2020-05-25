@@ -1,5 +1,21 @@
+.text-right {
+    text-align: right;
+}
+
 .text-center {
     text-align: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.float-right {
+    float: right !important;
 }
 
 .mt-0 {
@@ -14,8 +30,20 @@
     margin-top: 2vh;
 }
 
-.mt-3{
+.mt-3 {
     margin-top: 3vh;
+}
+
+.mt-4 {
+    margin-top: 4vh;
+}
+
+.mt-5 {
+    margin-top: 5vh;
+}
+
+.mt-6 {
+    margin-top: 6vh;
 }
 
 .mb-0 {
