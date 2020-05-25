@@ -2,12 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Shop Make Up</title>
+    <link href="../css/grid.css" rel="stylesheet" type="text/css">
+    <link href="../css/custom-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/align.css" rel="stylesheet" type="text/css">
+    <link href="../css/animation.css" rel="stylesheet" type="text/css">
+    <link href="../css/shop-make-up.css" rel="stylesheet" type="text/css">
+    <script src="../js/shop-make-up.js"></script>
 </head>
 <body>
+<div class="container">
+    <!--    Navigation Bar-->
+    <div class="navbar mb-2">
+        <a class="font-x-large" href="home.html">Home</a>
+        <a class="font-x-large active" href="promotion.html">Promotion</a>
+        <div class="dropdown">
+            <button class="dropbtn font-x-large">Shop
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a class="font-x-large" href="shop-make-up.html">Make Up</a>
+                <a class="font-x-large" href="shop-skin-care.html">Skin Care</a>
+            </div>
+        </div>
+        <a class="font-x-large float-right" href="register.html">Register</a>
+    </div>
 
+    <!--    Free Shipment-->
+    <div class="free-shipment-desktop pop-up">
+        <span class="cursor-pointer text-white font-weight-bold text-shadow">Free Shipment of Any Minimum Transaction</span>
+    </div>
+
+    <!--    Shop Make Up Page-->
+    <div class="row">
+        <div class="column ml-1 mt-2">
+            <div class="font-x-large">Body Part</div>
+            <select class="mt-1" id="select-body-part" onchange="onChangeBodyPart()">
+                <option value="">Select Body Part</option>
+                <option value="eye">Eye</option>
+                <option value="lip">Lip</option>
+                <option value="face">Face</option>
+            </select>
+        </div>
+
+        <div class="column mt-2" id="make-up-types">
+        </div>
+    </div>
+
+    <div class="mt-5" id="separator">
+    </div>
+
+    <div class="mt-3" id="product-list">
+    </div>
+
+</div>
 </body>
 </html>
