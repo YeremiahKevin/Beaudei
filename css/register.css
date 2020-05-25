@@ -2,8 +2,8 @@
     width: 10%;
 }
 
-.w-50 {
-    width: 50%;
+.w-45 {
+    width: 45%;
 }
 
 @media (max-device-width: 800px) {
@@ -11,13 +11,17 @@
         width: 20%;
     }
 
-    .w-50 {
-        width: 75%;
+    .w-45 {
+        width: 80%;
     }
 }
 
-.bg-pink {
-    background-color: #ffe8ea;
+.bordered {
+    border: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+.box-shadow {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
 }
 
 .form-control {
@@ -33,4 +37,8 @@
 
 .materialize-form:focus {
     outline: none;
+}
+
+select {
+    font-size: medium;
 }

@@ -75,11 +75,11 @@ nav a:hover {
 .btn-blue {
     color: white;
     background-color: #3873ff;
-    border: 1px solid white;
+    border: 1px solid #cdcdcd;
 }
 
 .btn-blue:hover {
-    background-color: #2252cd;
+    background-color: #2359ff;
 }
 
 .btn-blue:active {
@@ -203,4 +203,8 @@ nav a:hover {
     .free-shipment-mobile .text-white {
         color: #696969;
     }
+}
+
+html * {
+    font-family: "Arial", sans-serif;
 }
