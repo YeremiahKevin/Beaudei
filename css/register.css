@@ -1,25 +1,44 @@
-.w-25 {
-    width: 25%;
+.w-10 {
+    width: 10%;
 }
 
-.w-50 {
-    width: 50%;
+.w-45 {
+    width: 45%;
 }
 
 @media (max-device-width: 800px) {
-    .w-25 {
-        width: 50%;
+    .w-10 {
+        width: 20%;
     }
 
-    .w-50 {
-        width: 75%;
+    .w-45 {
+        width: 80%;
     }
 }
 
-.bg-pink {
-    background-color: #ffcad1;
+.bordered {
+    border: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+.box-shadow {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.15);
 }
 
 .form-control {
-    width: 95%;
+    width: 70%;
+    height: 3vh;
+}
+
+.materialize-form {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+.materialize-form:focus {
+    outline: none;
+}
+
+select {
+    font-size: medium;
 }

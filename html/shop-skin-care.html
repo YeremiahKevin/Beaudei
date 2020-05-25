@@ -2,29 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Shop Skin Care</title>
-    <link rel="stylesheet" type="text/css" href="../css/grid.css">
-    <link rel="stylesheet" type="text/css" href="../css/custom-style.css">
-    <link rel="stylesheet" type="text/css" href="../css/align.css">
-    <link rel="stylesheet" type="text/css" href="../css/animation.css">
-    <link rel="stylesheet" type="text/css" href="../css/shop-skin-care.css">
+    <link href="../css/grid.css" rel="stylesheet" type="text/css">
+    <link href="../css/custom-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/align.css" rel="stylesheet" type="text/css">
+    <link href="../css/animation.css" rel="stylesheet" type="text/css">
+    <link href="../css/shop-skin-care.css" rel="stylesheet" type="text/css">
     <script src="../js/shop-skin-care.js"></script>
 </head>
 <body>
 <div class="container">
     <!--    Navigation Bar-->
-    <nav class="mb-3">
-        <a href="home.html">Home</a>
-        <a href="promotion.html">Promotion</a>
-        <a href="shop-make-up.html">Make Up</a>
-        <a class="active" href="shop-skin-care.html">Skin Care</a>
-        <a href="register.html">Register</a>
-    </nav>
+    <div class="navbar mb-2">
+        <a class="font-x-large" href="home.html">Home</a>
+        <a class="font-x-large" href="promotion.html">Promotion</a>
+        <div class="dropdown">
+            <button class="dropbtn font-x-large active">Shop
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a class="font-x-large" href="shop-make-up.html">Make Up</a>
+                <a class="font-x-large" href="shop-skin-care.html">Skin Care</a>
+            </div>
+        </div>
+        <a class="font-x-large float-right" href="register.html">Register</a>
+    </div>
 
-<!--    Shop Skin Care Page-->
+    <!--    Free Shipment-->
+    <div class="free-shipment-desktop pop-up">
+        <span class="cursor-pointer text-white font-weight-bold text-shadow">Free Shipment of Any Minimum Transaction</span>
+    </div>
+
+    <!--    Shop Skin Care Page-->
     <div class="column text-center mt-2 mb-2">
         <span class="font-xx-large">Skin Care Types</span>
     </div>
@@ -32,17 +43,17 @@
     <div class="row">
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickCleanser()">
-                <span class="font-xx-large font-weight-bold">Cleanser</span>
+                <span class="font-xx-large">Cleanser</span>
             </div>
         </div>
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickExfoliator()">
-                <span class="font-xx-large font-weight-bold">Exfoliator</span>
+                <span class="font-xx-large">Exfoliator</span>
             </div>
         </div>
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickTreatment()">
-                <span class="font-xx-large font-weight-bold">Treatment</span>
+                <span class="font-xx-large">Treatment</span>
             </div>
         </div>
     </div>
@@ -50,17 +61,17 @@
     <div class="row">
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickSerum()">
-                <span class="font-xx-large font-weight-bold">Serum</span>
+                <span class="font-xx-large">Serum</span>
             </div>
         </div>
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickFaceOil()">
-                <span class="font-xx-large font-weight-bold">Face Oil</span>
+                <span class="font-xx-large">Face Oil</span>
             </div>
         </div>
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickSunscreen()">
-                <span class="font-xx-large font-weight-bold">Sunscreen</span>
+                <span class="font-xx-large">Sunscreen</span>
             </div>
         </div>
     </div>
@@ -68,17 +79,17 @@
     <div class="row">
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickMoisturizer()">
-                <span class="font-xx-large font-weight-bold">Moisturizer</span>
+                <span class="font-xx-large">Moisturizer</span>
             </div>
         </div>
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickChemicalPeel()">
-                <span class="font-xx-large font-weight-bold">Chemical Peel</span>
+                <span class="font-xx-large">Chemical Peel</span>
             </div>
         </div>
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickToner()">
-                <span class="font-xx-large font-weight-bold">Toner</span>
+                <span class="font-xx-large">Toner</span>
             </div>
         </div>
     </div>
@@ -86,12 +97,12 @@
     <div class="row">
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickFaceMask()">
-                <span class="font-xx-large font-weight-bold">Face Mask</span>
+                <span class="font-xx-large">Face Mask</span>
             </div>
         </div>
         <div class="column mx-2 my-2">
             <div class="card text-center cursor-pointer" onclick="onClickEyeCream()">
-                <span class="font-xx-large font-weight-bold">Eye Cream</span>
+                <span class="font-xx-large">Eye Cream</span>
             </div>
         </div>
         <div class="column mx-2 my-2">

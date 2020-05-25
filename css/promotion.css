@@ -1,7 +1,7 @@
 @media (max-device-width: 800px) {
     .image-mobile {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
     }
 }
 
@@ -23,7 +23,7 @@
     animation-iteration-count: 1;
     animation-timing-function: ease-in;
     animation-duration: 500ms;
-    animation-delay: 100ms;
+    animation-delay: 50ms;
 }
 
 @keyframes float-up {
@@ -35,3 +35,7 @@
     }
 }
 
+.card {
+    padding-top: 0;
+    padding-bottom: 0;
+}
