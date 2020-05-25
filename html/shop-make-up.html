@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
     <title>Shop Make Up</title>
-    <link rel="stylesheet" type="text/css" href="../css/grid.css">
-    <link rel="stylesheet" type="text/css" href="../css/custom-style.css">
-    <link rel="stylesheet" type="text/css" href="../css/align.css">
-    <link rel="stylesheet" type="text/css" href="../css/animation.css">
-    <link rel="stylesheet" type="text/css" href="../css/shop-make-up.css">
+    <link href="../css/grid.css" rel="stylesheet" type="text/css">
+    <link href="../css/custom-style.css" rel="stylesheet" type="text/css">
+    <link href="../css/align.css" rel="stylesheet" type="text/css">
+    <link href="../css/animation.css" rel="stylesheet" type="text/css">
+    <link href="../css/shop-make-up.css" rel="stylesheet" type="text/css">
     <script src="../js/shop-make-up.js"></script>
 </head>
 <body>
@@ -30,11 +30,16 @@
         <a class="font-x-large float-right" href="register.html">Register</a>
     </div>
 
+    <!--    Free Shipment-->
+    <div class="free-shipment-desktop pop-up">
+        <span class="cursor-pointer text-white font-weight-bold text-shadow">Free Shipment of Any Minimum Transaction</span>
+    </div>
+
     <!--    Shop Make Up Page-->
     <div class="row">
         <div class="column ml-1 mt-2">
-            <div class="font-x-large">Body Part</div>
-            <select id="select-body-part" class="mt-1" onchange="onChangeBodyPart()" >
+            <div class="font-x-large fade-in">Body Part</div>
+            <select class="mt-1 fade-in" id="select-body-part" onchange="onChangeBodyPart()">
                 <option value="">Select Body Part</option>
                 <option value="eye">Eye</option>
                 <option value="lip">Lip</option>
@@ -46,7 +51,7 @@
         </div>
     </div>
 
-    <div class="mt-5" id="separator">
+    <div class="mt-6" id="separator">
     </div>
 
     <div class="mt-3" id="product-list">

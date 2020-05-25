@@ -1,6 +1,7 @@
 .card {
     background-color: #fdfdfd;
-    /*padding: 8px 16px;*/
+    padding-top: 15px;
+    padding-bottom: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
     border: 1px solid rgba(105, 105, 105, 0.4);
 }
@@ -15,6 +16,10 @@
 
 .font-weight-bold {
     font-weight: bold;
+}
+
+.font-small {
+    font-size: small;
 }
 
 .font-medium {
@@ -71,11 +76,11 @@ nav a:hover {
 .btn-blue {
     color: white;
     background-color: #3873ff;
-    border: 1px solid white;
+    border: 1px solid #cdcdcd;
 }
 
 .btn-blue:hover {
-    background-color: #2252cd;
+    background-color: #2359ff;
 }
 
 .btn-blue:active {
@@ -136,7 +141,25 @@ nav a:hover {
     display: block;
 }
 
+.free-shipment-desktop {
+    position: absolute;
+    top: 29px;
+    left: 690px
+}
+
+.text-white {
+    color: white;
+}
+
+.text-shadow {
+    text-shadow: 1px 1px 20px rgba(0, 0, 0, 0.51);
+}
+
 @media (max-device-width: 800px) {
+    .font-small {
+        font-size: x-small;
+    }
+
     .font-medium {
         font-size: smaller;
     }
@@ -164,4 +187,25 @@ nav a:hover {
     option {
         font-size: smaller !important;
     }
+
+    .free-shipment-desktop {
+        display: none;
+    }
+
+    .free-shipment-mobile {
+        display: block;
+        position: relative;
+        top: inherit;
+        left: inherit;
+        margin-bottom: 2vh;
+        text-align: center;
+    }
+
+    .free-shipment-mobile .text-white {
+        color: #696969;
+    }
+}
+
+html * {
+    font-family: "Arial", sans-serif;
 }
