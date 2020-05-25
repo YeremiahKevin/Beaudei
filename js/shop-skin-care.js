@@ -4,6 +4,7 @@ const products = [
         product_type: 'cleanser',
         product_name: 'Stripped Off Whipped Charcoal Cleanser',
         product_image: '../assets/image/NYX%20Stripped%20Off%20Whipped%20Charcoal%20Cleanser.jpg',
+        product_image_url: 'https://www.nyxcosmetics.com/dw/image/v2/AANG_PRD/on/demandware.static/-/Sites-cpd-nyxusa-master-catalog/default/dw00d7bf9b/ProductImages/2017/More/Stripped_Off_Cleansers/800897090647_strippedoffwhippedcharcoalcleanser_main.jpg?sw=420&sh=420&sm=fit&q=80',
         product_price: 59900
     },
     {
@@ -11,6 +12,7 @@ const products = [
         product_type: 'cleanser',
         product_name: 'Magnet Anti-Pollution Micellar Cleanser',
         product_image: '../assets/image/Revlon%20Magnet%20Anti-Pollution%20Micellar%20Cleanser.jpg',
+        product_image_url: 'https://cdn11.bigcommerce.com/s-1b7d5/images/stencil/1280x1000/products/9311/18490/Revlon_Professional_Magnet_Anti-Pollution_Micellar_Cleanser_250ml__57996.1560334277.jpg?c=2&imbypass=on',
         product_price: 60900
     },
     {
@@ -18,6 +20,7 @@ const products = [
         product_type: 'cleanser',
         product_name: 'Econature Face Cleanser',
         product_image: '../assets/image/Sariayu%20Econature%20Face%20Cleanser.jpg',
+        product_image_url: 'https://image.femaledaily.com/dyn/640/images/prod-pics/product_1545502078_Sariayu_Ec_800x800.jpg',
         product_price: 45900
     },
     {
@@ -25,6 +28,7 @@ const products = [
         product_type: 'cleanser',
         product_name: 'Milk Cleanser',
         product_image: '../assets/image/Viva%20Milk%20Cleanser.jpg',
+        product_image_url: 'https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/beauty/Viva_Milk_Cleanser/Viva_Milk_Cleanser_L_1.jpg',
         product_price: 44900
     },
     {
@@ -32,6 +36,7 @@ const products = [
         product_type: 'exfoliator',
         product_name: 'Velvet Mattifying Primer',
         product_image: '../assets/image/MAKE%20OVER%20Velvet%20Mattifying%20Primer.jpg',
+        product_image_url: 'https://d2pa5gi5n2e1an.cloudfront.net/global/images/product/beauty/MAKE_OVER_Velvet_Mattifying_Primer/MAKE_OVER_Velvet_Mattifying_Primer_L_1.jpg',
         product_price: 75000
     },
     {
