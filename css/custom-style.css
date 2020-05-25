@@ -63,7 +63,7 @@ nav a:hover {
 }
 
 .active {
-    color: #000000;
+    background-color: #ff6ab2 !important;
 }
 
 .btn {
