@@ -21,7 +21,7 @@ function onRegister() {
     // Email validation
     let atFlag = false;
     let dotFlag = false;
-    for(const i of email) {
+    for (const i of email) {
         if (i === '@') {
             atFlag = true;
         }

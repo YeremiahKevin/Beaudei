@@ -5,7 +5,7 @@
 
 @media (max-device-width: 800px) {
     .image-mobile {
-        width: 100px;
-        height: 100px;
+        width: 75px;
+        height: 75px;
     }
 }
