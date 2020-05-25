@@ -139,8 +139,8 @@ function onChangeBodyPart() {
     });
 
     let htmlMakeUpTypes =
-        '<div class="font-x-large">Make Up Types</div>\n' +
-        '<select class="mt-1" id="select-make-up-types" onchange="onChangeSkinType()">\n' +
+        '<div class="font-x-large fade-in">Make Up Types</div>\n' +
+        '<select class="mt-1 fade-in" id="select-make-up-types" onchange="onChangeSkinType()">\n' +
         '<option value="">Select Make Up Types</option>\n';
 
     filterMakeUpTypes.forEach(i => {
@@ -150,6 +150,8 @@ function onChangeBodyPart() {
     htmlMakeUpTypes += '</select>';
 
     document.getElementById('make-up-types').innerHTML = htmlMakeUpTypes;
+    document.getElementById('separator').innerHTML = '';
+    document.getElementById('product-list').innerHTML = '';
 }
 
 function onChangeSkinType() {
@@ -161,6 +163,7 @@ function onChangeSkinType() {
     });
 
     showProduct(filterProducts);
+
     document.getElementById('separator').innerHTML = '<hr>';
 }
 
@@ -173,7 +176,7 @@ function showProduct(products) {
         }
         html +=
             '<div class="column">\n' +
-            '                <div class="card text-center mx-2 my-2 cursor-pointer">\n' +
+            '                <div class="card text-center mx-2 my-2 cursor-pointer fade-in">\n' +
             '                    <div class="font-large">\n' +
             `                        ${products[i].brand_name}` +
             '                    </div>\n' +
