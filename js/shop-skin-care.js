@@ -126,7 +126,185 @@ const products = [
         product_image: '../assets/image/Viva%20Revitalizing%20Eye%20Cream.png',
         product_image_url: 'https://static.femaledaily.com/dyn/210/images/prod-pics/1445610385_lg.png',
         product_price: 33900
-    }
+    },
+    {
+        brand_name: 'COSRX',
+        product_type: 'cleanser',
+        product_name: 'Salicylic Acid Daily Gentle Cleanser',
+        product_image: '../assets/image/COSRX%20Salicylic%20Acid%20Daily%20Gentle%20Cleanser.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/7/8/7/9/17879-large_default.jpg',
+        product_price: 119200
+    },
+    {
+        brand_name: 'Cetaphil',
+        product_type: 'cleanser',
+        product_name: 'Gentle Skin Cleanser',
+        product_image: '../assets/image/Cetaphil%20Gentle%20Skin%20Cleanser.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/4/6/7/9/14679-large_default.jpg',
+        product_price: 44250
+    },
+    {
+        brand_name: 'Safi',
+        product_type: 'exfoliator',
+        product_name: 'White Expert Deep Exfoliator',
+        product_image: '../assets/image/Safi%20White%20Expert%20Deep%20Exfoliator.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/6/5/4/9/26549-large_default.jpg',
+        product_price: 42120
+    },
+    {
+        brand_name: 'Safi',
+        product_type: 'exfoliator',
+        product_name: 'Age Defy Deep Exfoliator',
+        product_image: '../assets/image/Safi%20Age%20Defy%20Deep%20Exfoliator.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/6/5/0/0/26500-large_default.jpg',
+        product_price: 44100
+    },
+    {
+        brand_name: 'Secret Key',
+        product_type: 'treatment',
+        product_name: 'Starting Treatment Essential Mask',
+        product_image: '../assets/image/Secret%20Key%20Starting%20Treatment%20Essential%20Mask.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/1/3/1/6/21316-large_default.jpg',
+        product_price: 45000
+    },
+    {
+        brand_name: 'Emina',
+        product_type: 'treatment',
+        product_name: 'Lip Mask',
+        product_image: '../assets/image/Emina%20Lip%20Mask.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/8/9/0/6/28906-large_default.jpg',
+        product_price: 30400
+    },
+    {
+        brand_name: 'ElsheSkin',
+        product_type: 'serum',
+        product_name: 'Sebum Reducer Serum',
+        product_image: '../assets/image/ElsheSkin%20Sebum%20Reducer%20Serum.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/8/3/2/1/18321-large_default.jpg',
+        product_price: 122500
+    },
+    {
+        brand_name: 'ElsheSkin',
+        product_type: 'serum',
+        product_name: 'Serum Vitamin C',
+        product_image: '../assets/image/ElsheSkin%20Serum%20Vitamin%20C.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/8/3/2/3/18323-large_default.jpg',
+        product_price: 180000
+    },
+    {
+        brand_name: 'Bhumi',
+        product_type: 'face oil',
+        product_name: 'Multi Targeted All Natural Adoring Face Oil',
+        product_image: '../assets/image/Bhumi%20Multi%20Targeted%20All%20Natural%20Adoring%20Face%20Oil.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/3/4/3/4/6/34346-large_default.jpg',
+        product_price: 262000
+    },
+    {
+        brand_name: 'Kleveru',
+        product_type: 'face oil',
+        product_name: 'Ceramide Calm Facial Oil',
+        product_image: '../assets/image/Kleveru%20Ceramide%20Calm%20Facial%20Oil.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/3/4/8/0/2/34802-large_default.jpg',
+        product_price: 187000
+    },
+    {
+        brand_name: 'Shangpree',
+        product_type: 'sunscreen',
+        product_name: 'Phyto UV Sunscreen',
+        product_image: '../assets/image/Shangpree%20Phyto%20UV%20Sunscreen.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://images.soco.id/25981625367-1588667310591.png',
+        product_price: 405000
+    },
+    {
+        brand_name: 'Sensatia Botanicals',
+        product_type: 'sunscreen',
+        product_name: 'Surf Naked Sunscreen Lotion',
+        product_image: '../assets/image/Sensatia%20Botanicals%20Surf%20Naked%20Sunscreen%20Lotion.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/2/9/6/6/22966-large_default.jpg',
+        product_price: 150000
+    },
+    {
+        brand_name: 'Haple',
+        product_type: 'moisturizer',
+        product_name: 'Blue Moon Moisturizer',
+        product_image: '../assets/image/Haple%20Blue%20Moon%20Moisturizer.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/3/5/7/8/2/35782-large_default.jpg',
+        product_price: 99000
+    },
+
+    {
+        brand_name: 'Haple',
+        product_type: 'moisturizer',
+        product_name: 'Sky Rose Moisturizer',
+        product_image: '../assets/image/Haple%20Sky%20Rose%20Moisturizer.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/3/5/7/8/1/35781-large_default.jpg',
+        product_price: 99000
+    },
+    {
+        brand_name: 'Neogen Dermalogy',
+        product_type: 'chemical peel',
+        product_name: 'Bio Peel Wine Class',
+        product_image: '../assets/image/Neogen%20Dermalogy%20Bio%20Peel%20Wine%20Class.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/3/3/2/4/8/33248-large_default.jpg',
+        product_price: 463000
+    },
+    {
+        brand_name: 'Neogen Dermalogy',
+        product_type: 'chemical peel',
+        product_name: 'Bio Peel Gauze Peeling',
+        product_image: '../assets/image/Neogen%20Dermalogy%20Bio%20Peel%20Gauze%20Peeling.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/1/8/8/4/2/18842-large_default.jpg',
+        product_price: 349000
+    },
+    {
+        brand_name: 'Everskin',
+        product_type: 'toner',
+        product_name: 'Moringa Refresh Toner Essence',
+        product_image: '../assets/image/Everskin%20Moringa%20Refresh%20Toner%20Essence.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/3/0/6/5/7/30657-large_default.jpg',
+        product_price: 157000
+    },
+
+    {
+        brand_name: 'Everskin',
+        product_type: 'toner',
+        product_name: 'Rose Toner Essence With Real Petal Flower',
+        product_image: '../assets/image/Everskin%20Rose%20Toner%20Essence%20With%20Real%20Petal%20Flower.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://images.soco.id/24663786807-1587107808419.png',
+        product_price: 157000
+    },
+    {
+        brand_name: 'Emina',
+        product_type: 'face mask',
+        product_name: 'Masquerade Face Mask',
+        product_image: '../assets/image/Emina%20Masquerade%20Face%20Mask.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/2/4/3/0/22430-large_default.jpg',
+        product_price: 11600
+    },
+    {
+        brand_name: 'Emina',
+        product_type: 'face mask',
+        product_name: 'Cranberry Juice Face Mask',
+        product_image: '../assets/image/Emina%20Cranberry%20Juice%20Face%20Mask.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/0/1/5/0/20150-large_default.jpg',
+        product_price: 31600
+    },
+    {
+        brand_name: 'Benton',
+        product_type: 'eye cream',
+        product_name: 'Fermentation Eye Cream',
+        product_image: '../assets/image/Benton%20Fermentation%20Eye%20Cream.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/4/8/4/8/24848-large_default.jpg',
+        product_price: 175000
+    },
+    {
+        brand_name: 'SNP',
+        product_type: 'eye cream',
+        product_name: 'Bird’s Nest W + Eye Cream',
+        product_image: '../assets/image/SNP%20Bird’s%20Nest%20W%20+%20Eye%20Cream.webp',
+        product_image_url: 'https://www.sociolla.com/cdn-cgi/image/w=325,format=auto,dpr=1.25/https://s3-ap-southeast-1.amazonaws.com/img-sociolla/img/p/2/7/3/9/9/27399-large_default.jpg',
+        product_price: 248000
+    },
 ];
 
 function showProduct(products) {
