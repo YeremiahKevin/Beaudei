@@ -18,6 +18,10 @@
     font-weight: bold;
 }
 
+.font-smaller {
+    font-size: smaller;
+}
+
 .font-small {
     font-size: small;
 }
@@ -156,6 +160,10 @@ nav a:hover {
 }
 
 @media (max-device-width: 800px) {
+    .font-smaller {
+        font-size: xx-small;
+    }
+
     .font-small {
         font-size: x-small;
     }

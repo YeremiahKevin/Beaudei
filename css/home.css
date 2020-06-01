@@ -1,0 +1,64 @@
+#beaudei-description {
+    background-image: url("../assets/image/Beaudei Home.png");
+    background-position: center;
+}
+
+#box-beaudei-description {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.text-brown {
+    color: #b2894b;
+}
+
+.text-brown-black {
+    color: #47443e;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.slideshow-container {
+    max-width: 95%;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.item {
+    display: inline-block;
+}
+
+.font-smaller {
+    font-size: smaller;
+}
+
+.arrow {
+    display: inline-block;
+}
+
+.bg-brown {
+    background-color: #b38a4c;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+.footer {
+    background-color: white;
+    padding: 10px 0;
+}
+
+@media (max-device-width: 800px) {
+    .image-mobile {
+        width: 75px;
+        height: 75px;
+    }
+
+    #last-column {
+        display: none;
+    }
+}
